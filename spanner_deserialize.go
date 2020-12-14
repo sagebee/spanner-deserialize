@@ -97,9 +97,9 @@ func main(){
 	// remove folders
 	toks = strings.Split(dbname, "/")
 	dbname = toks[len(toks)-1];
-	fmt.Println("XX"+dbname+"XX") // debug
 
-	return;
+	//fmt.Println("XX"+dbname+"XX") // debug
+
 	
 	// create database 
 	createDatabase(dbname, instancename,projectname,ddl)
